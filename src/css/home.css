@@ -1,0 +1,51 @@
+
+
+.home-content{
+    margin-top:-5%;
+  }
+  
+  .home-container {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+  
+  .Typewriter {
+    padding-top: 2%;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 2.7em !important;
+    font-family: 'Caveat', cursive;
+    color: #a30e40e7 !important;
+    font-weight:900 !important;
+    text-shadow: 2px 2px rgb(169, 175, 168);
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #d3174f !important;
+  }
+  
+  @media (max-width: 767px) {
+    .Typewriter__wrapper {
+      font-size: 1.4em !important;
+      font-weight: 500 !important;
+      position: absolute !important;
+    }
+    .Typewriter__cursor {
+      display: none !important;
+    }
+  }
+  
+  /* Social */
+  
+  .home-intro-container {
+    margin-bottom: 2%;
+  }
+  
+  
+  

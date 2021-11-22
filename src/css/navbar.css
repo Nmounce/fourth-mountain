@@ -1,0 +1,78 @@
+.sticky {
+  background-color: #49413578 !important;
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0px 10px 7px 0px rgba(9, 5, 29, 0.171) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.navbar {
+  /* position: fixed !important; */
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem !important;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem 2rem !important;
+    font-size: 1.4rem !important;
+    background-color: #181a27 !important;
+  }
+  .navbar-nav .nav-item a::after {
+    display: none !important;
+  }
+}
+.navbar-brand {
+  color: #bd0d47e7 !important;
+  text-shadow: 2px 2px rgb(209, 190, 190);
+  font-size: 2.3em !important;
+  font-weight: 700;
+  font-family: "Road Rage", cursive;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(216, 210, 212, 0.726) !important;
+  font-family: "Caveat", cursive;
+  padding-right: 0.6rem !important;
+  padding-left: 0.6rem !important;
+  font-size: 2rem !important;
+}
+
+.nav-link {
+  padding: 0.8rem 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 400;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav .nav-item a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background: #970e3cdc;
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}

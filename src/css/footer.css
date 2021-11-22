@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+      background-color:#49413578;
+      bottom: 0 !important;
+    }
+  
+    .footer-body {
+      text-align: center !important;
+    }
+  
+    @media (max-width: 767px) {
+      .footer-body {
+        text-align: center !important;
+      }
+    }
+  
+    h3 {
+      font-size: 1em;
+      color: white !important;
+      margin-top: 2.5em !important;
+      margin-bottom: 0.5em !important;
+    }
+  
