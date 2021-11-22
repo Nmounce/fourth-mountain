@@ -1,0 +1,20 @@
+// Vercel is a cloud platform for static sites and Serverless Functions that
+// fits perfectly with your workflow. It enables developers to host websites and
+// web services that deploy instantly, scale automatically, and requires no
+// supervision, all with no configuration.
+
+{
+    "version": 2,
+    "builds": [
+        {
+        "src": "./index.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
