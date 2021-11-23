@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Row, Col,Image } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./projectCard";
 import Particle from "../particle";
 import '../../css/projects.css';
+import '../../css/headers.css';
 
 import photo1 from "../../assets/project-images/photo1.png";
 import photo2 from "../../assets/project-images/photo2.png";
@@ -13,6 +14,7 @@ import photo6 from "../../assets/project-images/photo6.png";
 import photo7 from "../../assets/project-images/photo7.png";
 import photo8 from "../../assets/project-images/photo8.png";
 import photo9 from "../../assets/project-images/photo9.png";
+import photoH from "../../assets/images/project-header.png";
 
 function Projects() {
 
@@ -21,9 +23,9 @@ function Projects() {
     return (
         <Container className="project-container">
             <Particle />
+            <img className="page-headers" src={photoH} alt="projects" />
             <Container>
                 <div className="project-section">
-                <Image className="project-header" src="../../assets/images/project-header.png" alt="projects"/>
                     <div className="project-cards">
                         <Row style={{justifyContent: 'center'}}>
                             <Col md={4}>
@@ -69,7 +71,7 @@ function Projects() {
                             <Col md={4}>
                                     <ProjectCard
                                         imgPath={photo5}
-                                        title='Github Pages Regex Tutorial'
+                                        title='Regex Tutorial'
                                         text='Author'
                                         subText={UCBlurb}
                                         link1='https://gist.github.com/Nmounce/3bb29f1ef502bde3c3fb47820ea04abc'

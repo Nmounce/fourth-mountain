@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react";
-import './app.css';
-import Preload from "../src/components/pre";
+import './css/App.css';
+import Preload from "../src/components/preload";
 import Navbar from "./components/navbar";
 import Home from "./components/home/home";
 import About from "./components/about/about";
 import Projects from "./components/projects/projects";
 import Footer from "./components/footer";
-import Contact from "./components/contact/contact";
+import Contact from "./components/contact";
 import Resume from "./components/resume";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import "./css/main.css";
 import "./css/index.css";
 import "./css/preload.css";
-import "./css/scrollbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import ScrollToTop from "./components/scrollToTop";
 
