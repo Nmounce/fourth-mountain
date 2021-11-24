@@ -3,11 +3,14 @@
   position: fixed;
   left: 0;
   bottom: 0;
+  height:80px;
 }
 
 .footer-text {
-  padding-top: 2%;
+  padding-top: 5%;
   color: #9da09c;
+  font-family: "Patrick Hand", cursive;
+  font-size: 28px;
 }
 
 .footer-body {
