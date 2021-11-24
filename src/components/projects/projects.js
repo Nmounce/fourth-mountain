@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./projectCard";
-import Particle from "../particle";
 import '../../css/projects.css';
 import '../../css/headers.css';
 
@@ -22,7 +21,6 @@ function Projects() {
 
     return (
         <Container className="project-container">
-            <Particle />
             <img className="page-headers" src={photoH} alt="projects" />
             <Container>
                 <div className="project-section">

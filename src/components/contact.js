@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
-import Particle from "./particle";
 import '../css/contact.css';
 import '../css/headers.css';
-import ProjectPlanner from "../components/project-planner";
+import ProjectPlanner from "./contact-form";
 import ContactHeader from "../assets/images/contact-header.png";
 import pdf from "../assets/nikkiresume.pdf";
 import {
@@ -16,11 +15,10 @@ import {
 function Contact() {
     return (
         <Container>
-            <Particle />
             <img className="page-headers" src={ContactHeader} alt='contact' />
             <div className="text-head">
                 <h2 className="blurb">Ready to see what we are made of?</h2>
-                <h2 className="blurb"> Complete the<a href={ProjectPlanner}rel='noreferrer'> Project Planner</a> form to get a quote for a competitive rate based on your project requirements. We look forward to working with you!</h2>
+                <h2 className="blurb"> Complete the<a href={ProjectPlanner}rel='noreferrer' alt="link">Project Planner'</a> form to get a quote for a competitive rate based on your project requirements. We look forward to working with you!</h2>
                 <h2 className="blurb">See you on the mountain!</h2>
             </div>
             <Container className="contact">

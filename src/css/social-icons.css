@@ -1,14 +1,7 @@
-/*All */
-
-.btn .btn-primary {
-  background-color: transparent;
-  border: none;
-}
-
 .home-social-icons {
   display: flex;
 }
 
 .nav-link:hover {
-  box-shadow: 0 0 15px #9da09c;
+  box-shadow: 0 0 5px #9da09c;
 }

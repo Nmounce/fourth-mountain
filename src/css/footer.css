@@ -1,18 +1,33 @@
 .footer {
-    position: relative;
-      background-color:#49413578;
-      bottom: 0 !important;
-    }
-  
-    .footer-body {
-      text-align: center !important;
-    }
-  
-    @media (max-width: 767px) {
-      .footer-body {
-        text-align: center !important;
-      }
-    }
-  
+  background-color: #30362ac5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
 
-  
+.footer-text {
+  padding-top: 2%;
+  color: #9da09c;
+}
+
+.footer-body {
+  text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+}
+
