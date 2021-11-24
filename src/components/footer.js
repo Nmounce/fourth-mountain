@@ -8,11 +8,9 @@ function Footer() {
     return (
         <Container fluid className="footer">
             <Row>
-                <Col md={4} className="footer-name">
-                    <h3>Developed by 4th MT/n\ & Nikki Mounce</h3>
+                <Col md={4} className="footer-body footer-text">
                 </Col>
-                <Col md={4} className="footer-name">
-                    <h3>2021</h3>
+                <Col md={4} className="footer-body footer-text">
                 </Col>
                 <Col md={4} className="footer-body">
                     <SocialIcons/>
