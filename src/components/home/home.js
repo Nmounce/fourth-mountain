@@ -12,7 +12,7 @@ function ShowHomePage() {
             <Container fluid className="home-container" id="home">
                 <Particle />
                 <Container className='home-content'>
-                    <img src={Logo} alt="logo" className="img-fluid" />
+                    <img style={{ marginTop: '5%' }} src={Logo} alt="logo" className="img-fluid" />
                     <Type />
                 </Container>
             </Container>
