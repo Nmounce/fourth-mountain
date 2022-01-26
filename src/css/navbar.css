@@ -5,7 +5,7 @@
   transition: all 0.3s ease-out 0s !important;
   padding: 0.1rem 2rem !important;
   font-size: 1.2rem !important;
-  background-color: #30362ac5 !important;
+  /* background-color: #a5a6a798 !important; */
 }
 
 @media (max-width: 767px) {
@@ -19,19 +19,21 @@
   }
 }
 .navbar-brand {
-  color: #7abd0ded !important;
+  color: #4872c0ed !important;
   text-shadow: 2px 2px rgb(66, 61, 61);
   font-size: 2.3em !important;
   font-weight: 700;
-  font-family: "Road Rage", cursive;
+  font-family: "Caveat", cursive;
+  padding-right: 2rem !important;
 }
 
 .navbar-nav .nav-link {
-  color: rgba(246, 250, 211, 0.726) !important;
+  color: #f9f9fa  !important;
   font-family: "Caveat", cursive;
   padding-right: 0.6rem !important;
   padding-left: 0.6rem !important;
   font-size: 2rem !important;
+  text-shadow: 2px 2px rgb(66, 61, 61);
 }
 
 .nav-link {
@@ -53,6 +55,7 @@
   transition: all 0.3s ease-out 0s;
   position: relative;
   z-index: 1;
+  color:#181a27;
 }
 
 .navbar-nav .nav-item a::after {
@@ -62,7 +65,7 @@
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #82ce08dc;
+  background: #4b1fdbdc;
   bottom: 1px;
   left: 0;
   z-index: -1;

@@ -18,7 +18,7 @@ const Particle = () => {
               position: "absolute",
         width: "100%",
               height: "100%",
-        backgroundColor: '#1a1b1b',
+        backgroundColor: '#f2f2f2',
         backgroundImage: 'url("")',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -27,7 +27,7 @@ const Particle = () => {
             options={{
                 background: {
                     color: {
-                    value: '#1a1b1b',
+                    value: '  rgb(163, 165, 170)',
                 },
             },
                 fps_limit :60,
@@ -59,7 +59,7 @@ const Particle = () => {
                       value: "#ffffff",
                     },
                     links: {
-                      color: "#ffffff",
+                      color: "",
                       distance: 150,
                       enable: true,
                       opacity: 0.4,

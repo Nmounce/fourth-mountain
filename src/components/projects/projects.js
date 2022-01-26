@@ -117,6 +117,7 @@ function Projects() {
                                     />
                             </Col>
                         </Row>
+                        <div style={{'marginBottom': '10%'}}/>
                     </div>
                 </div>
                 </Container>

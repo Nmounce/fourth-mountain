@@ -1,10 +1,10 @@
 import React from "react";
 import { Container} from "react-bootstrap";
-import Logo from "../../assets/images/logo-transparent.png";
+import Logo from "../../assets/images/blue-logo-tsp.png";
 import Particle from "../particle.js";
 import '../../css/particles.css'
 import '../../css/home.css';
-import Type from "./type";
+// import Type from "./type";
 
 function ShowHomePage() {
     return (
@@ -12,9 +12,10 @@ function ShowHomePage() {
             <Container fluid className="home-container" id="home">
                 <Particle />
                 <Container className='home-content'>
-                    <img style={{ marginTop: '5%' }} src={Logo} alt="logo" className="img-fluid" />
-                    <Type />
+                    <img  src={Logo} alt="logo" className="img-fluid" />
+                    {/* <Type /> */}
                 </Container>
+                <div style={{"marginBottom":"10%"}} />
             </Container>
         </section>
     )

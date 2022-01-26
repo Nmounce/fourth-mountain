@@ -1,17 +1,19 @@
 
 
 .about-image {
-  width: 90vw;
+  margin-top:5%;
+  width: 80vw;
 }
 
 .tHeaders {
-  width: 60vw;
-  margin-top: -10%;
+  width: 30vw;
+  margin-bottom: 15%;
+  margin-top:5%;
 }
 
 .tech-icons {
   background-image: var(--section-background-color) !important;
-  color: rgba(216, 210, 212, 0.726) !important;
+  color: rgba(238, 238, 238, 0.931) !important;
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
@@ -20,7 +22,7 @@
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px #8ca309, 2px 2px white;
+  box-shadow: 4px 5px 4px 3px #0925a3, 2px 2px rgb(111, 53, 206);
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -34,8 +36,9 @@
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  background-color: beige;
-  border: 2.2px solid rgba(255, 255, 255, 0.883) !important;
+  background-color: rgb(35, 61, 94);
+  border: 3.2px solid rgba(255, 255, 255, 0.883) !important;
+  color: white;
 }
 .tech-icon-images {
   padding: 20px !important;
