@@ -13,6 +13,7 @@ import photo6 from "../../assets/project-images/photo6.png";
 import photo7 from "../../assets/project-images/photo7.png";
 import photo8 from "../../assets/project-images/photo8.png";
 import photo9 from "../../assets/project-images/photo9.png";
+
 import photoH from "../../assets/images/project-header.png";
 
 function Projects() {
@@ -25,7 +26,27 @@ function Projects() {
             <Container>
                 <div className="project-section">
                     <div className="project-cards">
-                        <Row style={{justifyContent: 'center'}}>
+                        <Row style={{ justifyContent: 'center' }}>
+                        <Col md={4}>
+                                    <ProjectCard
+                                        imgPath={photo2}
+                                        title='North Bay Arborist Reports'
+                                        text='Wordpress Development'
+                                        subText='This app was developed for the business owned by my husband and myself for use in marketing'
+                                        link='https://github.com/Nmounce/north-bay-arborist-reports.git'
+                                        link2="thebayarborist.com"
+                                    />
+                            </Col>
+                            <Col md={4}>
+                                    <ProjectCard
+                                        imgPath={photo7}
+                                        title='Salonly'
+                                        text='React/Store Component'
+                                        subText={UCBlurb}
+                                        link='https://github.com/Nmounce/salon-project.git'
+                                        link2="https://shrouded-springs-95173.herokuapp.com/"
+                                    />
+                            </Col>
                             <Col md={4}>
                                     <ProjectCard
                                         imgPath={photo1}
@@ -38,12 +59,12 @@ function Projects() {
                             </Col>
                             <Col md={4}>
                                     <ProjectCard
-                                        imgPath={photo2}
-                                        title='E-Commerce Back End'
-                                        text='Back-End Build'
+                                        imgPath={photo8}
+                                        title='Mellifluous'
+                                        text='Design and UI'
                                         subText={UCBlurb}
-                                        link='https://github.com/Nmounce/E-Commerce_Back-End.git'
-                                        link2="https://watch.screencastify.com/v/2dcVTfL68klgbN2rD12D"
+                                        link='https://github.com/Nmounce/project-01.git'
+                                        link2="https://nmounce.github.io/project-01/"
                                     />
                             </Col>
                             <Col md={4}>
@@ -84,26 +105,6 @@ function Projects() {
                                         subText={UCBlurb}
                                         link1='https://github.com/Nmounce/workout-tracker.git'
                                         link2="https://afternoon-ridge-78920.herokuapp.com/?id=6178ac5eed66dbe7e3d5c1d6"
-                                    />
-                            </Col>
-                            <Col md={4}>
-                                    <ProjectCard
-                                        imgPath={photo7}
-                                        title='Budget Tracker'
-                                        text='Modified Starter Code'
-                                        subText={UCBlurb}
-                                        link='https://github.com/Nmounce/budget-trackers.git'
-                                        link2="https://guarded-sands-90148.herokuapp.com/"
-                                    />
-                            </Col>
-                            <Col md={4}>
-                                    <ProjectCard
-                                        imgPath={photo8}
-                                        title='Mellifluous'
-                                        text='Design and UI'
-                                        subText={UCBlurb}
-                                        link='https://github.com/Nmounce/project-01.git'
-                                        link2="https://nmounce.github.io/project-01/"
                                     />
                             </Col>
                             <Col md={4}>

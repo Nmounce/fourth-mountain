@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container} from "react-bootstrap";
-import aboutImg from "../../assets/images/about-blue-tsp.png";
+import aboutImg from "../../assets/images/about-otange-tsp.png";
 import techImage from "../../assets/images/tech-header.png";
 import toolsImage from "../../assets/images/tools-header.png";
 import Tech from "./tech";

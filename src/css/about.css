@@ -12,8 +12,9 @@
 }
 
 .tech-icons {
-  background-image: var(--section-background-color) !important;
-  color: rgba(238, 238, 238, 0.931) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: rgb(223, 217, 217);
+  color: rgba(75, 72, 72, 0.931) ;
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
@@ -22,7 +23,7 @@
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px #0925a3, 2px 2px rgb(111, 53, 206);
+  box-shadow: 4px 5px 4px 3px #885607, 2px 2px rgb(32, 53, 172);
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }

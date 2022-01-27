@@ -5,7 +5,7 @@ import '../css/social-icons.css';
 import {
     AiFillGithub,
     AiFillLinkedin,
-    AiFillMail
+    AiFillMail, AiFillPhone
 } from "react-icons/ai";
 
 function SocialIcons() {
@@ -22,6 +22,9 @@ function SocialIcons() {
                 <Nav.Link class="js-track"  to="mailto:nikkicancode@gmail.com" data-track-action='email submission' data-track-category="contact" >
                     <AiFillMail class="icon" />
                 </Nav.Link>
+                <Nav.Link>
+                    <AiFillPhone class="icon"  />
+                 </Nav.Link>
             </Nav>
         </Navbar>
     );

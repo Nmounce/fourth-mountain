@@ -19,7 +19,7 @@
   }
 }
 .navbar-brand {
-  color: #4872c0ed !important;
+  color: #9b5a06 !important;
   text-shadow: 2px 2px rgb(66, 61, 61);
   font-size: 2.3em !important;
   font-weight: 700;
@@ -28,12 +28,12 @@
 }
 
 .navbar-nav .nav-link {
-  color: #f9f9fa  !important;
+  color: #5e5d5b  !important;
   font-family: "Caveat", cursive;
   padding-right: 0.6rem !important;
   padding-left: 0.6rem !important;
   font-size: 2rem !important;
-  text-shadow: 2px 2px rgb(66, 61, 61);
+  text-shadow: 2px 2px rgb(32, 32, 32);
 }
 
 .nav-link {
@@ -65,7 +65,7 @@
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #4b1fdbdc;
+  background: #834805dc;
   bottom: 1px;
   left: 0;
   z-index: -1;
