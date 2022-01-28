@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
 import '../css/contact.css';
 import '../css/headers.css';
-import ProjectPlanner from "./contact-form";
+// import ProjectPlanner from "./contact-form";
 import ContactHeader from "../assets/images/contact-header.png";
 import pdf from "../assets/nikkiresume.pdf";
 import {
