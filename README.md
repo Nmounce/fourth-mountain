@@ -4,8 +4,8 @@
 
 ## Description
 
-4th MT/N\ is the brain-child of Nikki Mounce, standing in as a personal
-Portfolio fo work, branded under a business name.
+4th MT/N\ is the brain-child of myself, Nikki Mounce, standing in as a personal
+Portfolio to showcase my work in web development. 
 ![](images/preview.gif)
 
 ## Table of Contents
