@@ -34,7 +34,7 @@ function Projects() {
                                         text='Wordpress Development'
                                         subText='This app was developed for the business owned by my husband and myself for use in marketing'
                                         link='https://github.com/Nmounce/north-bay-arborist-reports.git'
-                                        link2="thebayarborist.com"
+                                        link2="https://www.thebayarborist.com/"
                                     />
                             </Col>
                             <Col md={4}>
