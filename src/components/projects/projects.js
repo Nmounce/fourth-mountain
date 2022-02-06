@@ -32,9 +32,9 @@ function Projects() {
                                         imgPath={photo2}
                                         title='North Bay Arborist Reports'
                                         text='Wordpress Development'
-                                        subText='This app was developed for the business owned by my husband and myself for use in marketing'
-                                        link='https://github.com/Nmounce/north-bay-arborist-reports.git'
-                                        link2="https://www.thebayarborist.com/"
+                                        subText='This app was developed for the business owned by my husband and myself for use in marketing' />
+                                        <btn><a href="https://github.com/Nmounce/north-bay-arborist-reports.git"></a></btn>
+                                        <btn><a href="https://www.thebayarborist.com/"></a></btn>
                                     />
                             </Col>
                             <Col md={4}>
