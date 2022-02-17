@@ -16,10 +16,11 @@ function ProjectCard(props) {
                 }}>{props.title}</Card.Title>
                 <Card.Text>{props.text}</Card.Text>
                 <Card.Text className='sub-text'>{props.subText}</Card.Text>
-                <Button variant="secondary" class="social-icons" href={props.link1} target='_blank'>VIEW THE REPO
+                <Button variant="secondary" class="social-icons" href={props.link1} target='_blank'>View The Repo
                     <AiFillGithub style={{ width: '30px', height: '30px', color:'#e67300', marginLeft:'1px' }}/>
                 </Button>
-                <Button variant="secondary" class="social-icons" href={props.link2} target='_blank'>SEE IT LIVE                    <CgWebsite style={{ width: '30px', height: '30px', color:'#e67300', marginLeft:'1px'}}/>
+                <Button variant="secondary" class="social-icons" href={props.link2} target='_blank'>See It Live
+                <CgWebsite style={{ width: '30px', height: '30px', color:'#e67300', marginLeft:'1px'}}/>
                 </Button>
             </Card.Body>
         </Card>

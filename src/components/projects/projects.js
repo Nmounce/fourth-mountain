@@ -32,9 +32,9 @@ function Projects() {
                                         imgPath={photo2}
                                         title='North Bay Arborist Reports'
                                         text='Wordpress Development'
-                                        subText='This app was developed for the business owned by my husband and myself for use in marketing' />
-                                        <btn><a href="https://github.com/Nmounce/north-bay-arborist-reports.git"></a></btn>
-                                        <btn><a href="https://www.thebayarborist.com/"></a></btn>
+                                        subText='This app was developed for the business owned by my husband and myself for use in marketing'
+                                        link1='https://github.com/Nmounce/north-bay-arborist-reports.git'
+                                        link2='https://www.thebayarborist.com/'
                                     />
                             </Col>
                             <Col md={4}>
@@ -43,7 +43,7 @@ function Projects() {
                                         title='Salonly'
                                         text='React/Store Component'
                                         subText={UCBlurb}
-                                        link='https://github.com/Nmounce/salon-project.git'
+                                        link1='https://github.com/Nmounce/salon-project.git'
                                         link2="https://shrouded-springs-95173.herokuapp.com/"
                                     />
                             </Col>
@@ -53,7 +53,7 @@ function Projects() {
                                         title='Ubiquitous Happiness'
                                         text='Design and UI'
                                         subText={UCBlurb}
-                                        link='https://github.com/Myuze/ubiquitous-happiness.git'
+                                        link1='https://github.com/Myuze/ubiquitous-happiness.git'
                                         link2="https://ubiquitous-p2.herokuapp.com/home"
                                     />
                             </Col>
@@ -63,7 +63,7 @@ function Projects() {
                                         title='Mellifluous'
                                         text='Design and UI'
                                         subText={UCBlurb}
-                                        link='https://github.com/Nmounce/project-01.git'
+                                        link1='https://github.com/Nmounce/project-01.git'
                                         link2="https://nmounce.github.io/project-01/"
                                     />
                             </Col>
